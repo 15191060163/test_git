@@ -1,5 +1,5 @@
 import sys,os
-sys.path.append(r"C:\Users\000\PycharmProjects\办公\common1")
+sys.path.append(r"C:\Users\000\PycharmProjects\bangong")
 import unittest
 from selenium import webdriver
 import time
