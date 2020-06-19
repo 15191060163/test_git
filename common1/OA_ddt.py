@@ -1,9 +1,11 @@
+import sys,os
+sys.path.append(r"C:\Users\000\PycharmProjects\办公\common1")
 import unittest
 from selenium import webdriver
 import time
 from ddt import ddt,data,unpack
 from common1.OA_data import Excel_data
-import os
+
 path=r"D:\课件\文件\OA.xlsx"
 excel=Excel_data()
 # excel.OA_data1(path)
