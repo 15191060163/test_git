@@ -374,3 +374,151 @@ console.warn: services.settings: main/whats-new-panel sync interrupted by shutdo
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1592533884386	Marionette	INFO	Listening on port 52585
 1592533884871	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592539147398	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofilex3xB8g"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592539204761	Marionette	INFO	Listening on port 60624
+1592539205618	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380133,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 15664, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1592539984715	Marionette	INFO	Stopped listening on port 60624
+e from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1592539294205	Marionette	INFO	Listening on port 61004
+1592539294758	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380023,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380023,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 8048, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+[Parent 8048, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: services.settings: 
+  Message: TypeError: NetworkError
+###!!! [Parent][MessageChannel] Error: (msgtype=0x380133,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 14320, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1592539952274	Marionette	INFO	Stopped listening on port 61374
+rtChanges@resource://services-settings/RemoteSettingsClient.jsm:809:20
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:527:35
+observe@resource://gre/modules/AsyncShutdown.jsm:554:16
+
+console.warn: services.settings: main/messaging-experiments sync interrupted by shutdown
+1592539819790	Marionette	INFO	Stopped listening on port 61004
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 5267: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1592539454539	Marionette	INFO	Listening on port 61561
+1592539454733	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 15656, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+console.warn: services.settings: blocklists/plugins sync interrupted by shutdown
+console.warn: services.settings: main/public-suffix-list sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: pinning/pins sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+1592539970835	Marionette	INFO	Stopped listening on port 61561
+ (msgtype=0x380133,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 24512, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1592539929755	Marionette	INFO	Stopped listening on port 62094
+1592549805627	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofile5ZNZql"
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstorconsole.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+[Parent 21672, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chrom1592549924606	Marionette	INFO	Listening on pJavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1592549932073	Marionette	INFO	Listening on port 50643
+1592549940348	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileRApb2D"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              1592551852853	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofilewsg3xj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592551873056	Marionette	INFO	Listening on port 50017
+1592551873437	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592551886269	Marionette	INFO	Stopped listening on port 50017
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1178: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA000D,name=PBackgroundIDBDatabase::Msg_Invalidate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+1592551893633	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileKH4ttd"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592551899154	Marionette	INFO	Listening on port 50065
+1592551900195	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592551911967	Marionette	INFO	Stopped listening on port 50065
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1178: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1592551919453	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileSYHKyc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592551924802	Marionette	INFO	Listening on port 50112
+1592551925286	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592551936069	Marionette	INFO	Stopped listening on port 50112
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1178: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1592551943243	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofilepwRXoB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592551948695	Marionette	INFO	Listening on port 50155
+1592551949075	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592551959948	Marionette	INFO	Stopped listening on port 50155
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1178: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1592551967373	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofile1xIv75"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592551975344	Marionette	INFO	Listening on port 50196
+1592551975845	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592551981327	Marionette	INFO	Stopped listening on port 50196
+JavaScript error: resource://services-settings/RemoteSettingsClient.jsm, line 115: Error: Unknown callback
+1592552516608	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofilezCDETW"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592552540936	Marionette	INFO	Listening on port 50369
+1592552542396	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592552556756	Marionette	INFO	Stopped listening on port 50369
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1178: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1592552563903	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofile0pmnbG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592552569900	Marionette	INFO	Listening on port 50431
+1592552570223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592552580969	Marionette	INFO	Stopped listening on port 50431
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1178: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1592552587969	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofilewhslgs"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592552594000	Marionette	INFO	Listening on port 50468
+1592552594503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592552605336	Marionette	INFO	Stopped listening on port 50468
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1178: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1592552614331	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileoaHMI4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592552621414	Marionette	INFO	Listening on port 50517
+1592552621721	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592552632406	Marionette	INFO	Stopped listening on port 50517
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1178: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1592552639291	mozrunner::runner	INFO	Running command: "D:\\软件\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileXStObA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592552646026	Marionette	INFO	Listening on port 50561
+1592552646217	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1592552657311	Marionette	INFO	Stopped listening on port 50561
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1178: NS_ERROR_NOT_AVAILABLE: prompt aborted by user

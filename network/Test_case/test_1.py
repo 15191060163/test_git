@@ -1,3 +1,5 @@
+import sys,os
+sys.path.append(r"C:\Users\000\PycharmProjects\network")
 from selenium import webdriver
 import time
 import unittest
